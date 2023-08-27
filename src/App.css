@@ -17,16 +17,13 @@
 
 
 .container__phrase {
-  width: 100%;
+  width: 70%;
   max-width: 30em;
-  background-color: rgb(255, 255, 255, 0.7);
-  padding: 3em 3.5em;
+  padding: 7.0em 2.3em;
   line-height: 1.4;
   border-radius: 0.7em;
-    --mask: radial-gradient(20px at bottom,#0000 97%,#000) 90% / 70.50px 100%;
-    -webkit-mask: var(--mask);
-            mask: var(--mask);
-
+            background-image: url('/public/rectangle1.svg');
+            background-color: aqua;
 }
 
 .container__btn {
